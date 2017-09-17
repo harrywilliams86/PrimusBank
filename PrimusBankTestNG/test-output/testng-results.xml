@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9436" started-at="2017-07-31T14:19:25Z" finished-at="2017-07-31T14:19:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9436" started-at="2017-07-31T14:19:25Z" finished-at="2017-07-31T14:19:34Z">
+      <class name="com.primusbank.testcases.AdminLoginTestDDF">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.primusbank.testcases.AdminLoginTestDDF@51565ec2]" name="launchApplication" is-config="true" duration-ms="5479" started-at="2017-07-31T19:49:25Z" finished-at="2017-07-31T19:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="adminLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.primusbank.testcases.AdminLoginTestDDF@51565ec2]" name="adminLoginTest" duration-ms="2562" started-at="2017-07-31T19:49:31Z" data-provider="adminData" finished-at="2017-07-31T19:49:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLoginTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.primusbank.testcases.AdminLoginTestDDF@51565ec2]" name="closeApplication" is-config="true" duration-ms="101" started-at="2017-07-31T19:49:34Z" finished-at="2017-07-31T19:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.primusbank.testcases.AdminLoginTestDDF -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
